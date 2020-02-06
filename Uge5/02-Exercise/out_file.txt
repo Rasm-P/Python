@@ -1,0 +1,8 @@
+Exercise1.py
+fi_file.txt
+mails.txt
+md_out_file.txt
+newCSV.csv
+new_module.py
+out_file.txt
+utils.py
