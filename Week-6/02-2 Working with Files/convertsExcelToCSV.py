@@ -3,8 +3,8 @@ import csv
 import platform
 import openpyxl
 
-xlsx_file = 'C:/Users/rasmu/Documents/Python/Uge6/02-2 Working with Files/iris_data.xlsx'
-csv_file = 'C:/Users/rasmu/Documents/Python/Uge6/02-2 Working with Files/newCSV.csv'
+xlsx_file = 'C:/Users/rasmu/Documents/Python/Week-6/02-2 Working with Files/iris_data.xlsx'
+csv_file = 'C:/Users/rasmu/Documents/Python/Week-6/02-2 Working with Files/newCSV.csv'
 
 #class TestStringMethods(unittest.TestCase):
 #
