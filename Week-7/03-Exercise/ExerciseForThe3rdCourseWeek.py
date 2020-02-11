@@ -3,6 +3,7 @@ import os
 import csv
 import matplotlib.pyplot as plt
 
+#Ex 1
 class Student():
     def __init__(self, name, gender, data_sheet, image_url):
         self.name = name
@@ -142,7 +143,38 @@ def distribution_of_study_progression(sorted_list):
     plt.axis((-5,105,0,len(sorted_list)))
     plt.show()
 
-generate_students(29)
+#Ex 2
+def closest_to_completing(sorted_list):
+    comp_list = []
+    try:
+        if len(sorted_list) >= 3:
+            comp_list = [sorted_list[10].list_student(),sorted_list[1].list_student(),sorted_list[2].list_student()]
+        else:
+            raise NotEnoughStudentsException('Oh no, length is only {}!'.format(len(sorted_list)))
+    except NotEnoughStudentsException:
+        comp_list = ['The list was shorter than 2!']
+
+    closest_to_completion(comp_list)
+
+class NotEnoughStudentsException(ValueError):
+    def __init__(self, *args, **kwargs):
+        ValueError.__init__(self, *args, **kwargs)
+        
+def closest_to_completion(students):
+    to_file = 'C:/Users/rasmu/Desktop/Python/Week-7/03-Exercise/closest_to_completion.csv'
+    with open(to_file,'w', newline='') as file_object:
+        obj=csv.writer(file_object)
+        if len(students) > 1:
+            for person in students:
+                obj.writerow(person)
+        else:
+            obj.writerow(students)
+
+#1
+generate_students(4)
 Read_student_data()
 plot_graph(Read_student_data())
 distribution_of_study_progression(Read_student_data())
+
+#2
+closest_to_completing(Read_student_data())
