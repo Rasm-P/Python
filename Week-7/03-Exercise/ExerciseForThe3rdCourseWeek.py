@@ -1,6 +1,7 @@
 import random
 import os
 import csv
+import matplotlib.pyplot as plt
 
 class Student():
     def __init__(self, name, gender, data_sheet, image_url):
@@ -8,13 +9,14 @@ class Student():
         self.gender = gender
         self.data_sheet = data_sheet
         self.image_url = image_url
+        self.avg = self.get_avg_grade()
 
     def get_avg_grade(self):
         grade_list = self.data_sheet.get_grades_as_list()
         return  sum(grade_list) / len(grade_list)
 
     def list_student(self):
-        return [self.name,self.gender,self.data_sheet.list_dataSheet(),self.image_url]
+        return [self.name,self.gender,self.avg,self.data_sheet.list_dataSheet(),self.image_url]
 
     def get_name(self):
         return self.name
@@ -24,6 +26,13 @@ class Student():
 
     def __str__(self):
         return ''.join(self.name + " " + self.image_url + " " + str(self.get_avg_grade()))
+
+    def progression(self):
+        total_etcs = 0
+        for num in self.data_sheet.courses:
+            if not int(num.optional_grade) <= 0:
+                total_etcs += int(num.ETCS)
+        return total_etcs / 150 * 100
 
 class DataSheet():
     def __init__(self,courses=[]):
@@ -55,7 +64,7 @@ class Course():
 def random_corses_and_grades():
     student_corse_list = []
     possible_grades = [-3,0,2,4,7,10,12]
-    cource_list = [Course('Mathematics',206,'Ole Larsen',15,random.choice(possible_grades)),Course('Arts',214,'Lone Olsen',5,random.choice(possible_grades)),Course('Society',199,'Anders Andersen',5,random.choice(possible_grades)),Course('Java programming',202,'Allan Alleberg',30,random.choice(possible_grades))]
+    cource_list = [Course('Mathematics',206,'Ole Larsen',30,random.choice(possible_grades)),Course('Arts',214,'Lone Olsen',30,random.choice(possible_grades)),Course('Society',199,'Anders Andersen',30,random.choice(possible_grades)),Course('Java programming',202,'Allan Alleberg',30,random.choice(possible_grades)),Course('Python programming',188,'Ak Bk',30,random.choice(possible_grades))]
     for num in range(random.randint(1,len(cource_list))):
         student_corse_list.append(cource_list[num])
     return DataSheet(student_corse_list)
@@ -96,15 +105,44 @@ def Read_student_data():
             gender = line[1]
             img = line[len(line)-1]
             data = []
-            for num in range(2,len(line)-2,5):
+            for num in range(3,len(line)-2,5):
                 data.append(Course(line[num].translate(str.maketrans('','','\" \"[]\"')),line[num+1].translate(str.maketrans('','','\" \"[]\"')),line[num+2].translate(str.maketrans('','','\" \"[]\"')),line[num+3].translate(str.maketrans('','','\" \"[]\"')),line[num+4].translate(str.maketrans('','','\" \"[]\"'))))
             dataSheet = DataSheet(data)
             student_obj.append(Student(name,gender,dataSheet,img))
-
-        for obj in student_obj:
+    
+    sorted_people = sorted(student_obj, key=lambda item: item.avg, reverse=True)
+    for obj in sorted_people:
             print(str(obj))
 
-        return student_obj
+    return sorted_people
 
-generate_students(7)
+def plot_graph(sorted_list):
+    x_vals,y_vals = zip(*[(str(i.name),float(i.avg)) for i in sorted_list])
+
+    plt.bar(x_vals, y_vals, width=0.5, align='center')
+    title = 'Distribution of names and avg grades'
+    plt.title(title, fontsize=12)
+    plt.xlabel("Student names", fontsize=10)
+    plt.ylabel("Grade avg", fontsize=10)
+    plt.tick_params(axis='both', which='major', labelsize=10)
+    plt.show()
+
+def distribution_of_study_progression(sorted_list):
+    study_progression = {}
+    for stu in sorted_list:
+        if stu.progression() not in study_progression:
+            study_progression[stu.progression()] = 1
+        else:
+            study_progression[stu.progression()] = study_progression[stu.progression()] + 1
+    plt.bar(study_progression.keys(), study_progression.values()) 
+    title = 'Bar chart of distribution of study progression'
+    plt.title(title, fontsize=12)
+    plt.xlabel("Study progression in %", fontsize=10)
+    plt.ylabel("number of students", fontsize=10)
+    plt.axis((-5,105,0,len(sorted_list)))
+    plt.show()
+
+generate_students(29)
 Read_student_data()
+plot_graph(Read_student_data())
+distribution_of_study_progression(Read_student_data())
