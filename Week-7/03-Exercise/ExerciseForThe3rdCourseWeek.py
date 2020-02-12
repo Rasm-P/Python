@@ -35,6 +35,9 @@ class Student():
                 total_etcs += int(num.ETCS)
         return total_etcs / 150 * 100
 
+    def list_of_courses(self):
+        return self.data_sheet.courses
+
 class DataSheet():
     def __init__(self,courses=[]):
         self.courses = courses
@@ -170,11 +173,60 @@ def closest_to_completion(students):
         else:
             obj.writerow(students)
 
+#3
+def student_pie(students):
+    study_progression = {}
+    for stu in students:
+        if stu.progression() not in study_progression:
+            study_progression[stu.progression()] = 1
+        else:
+            study_progression[stu.progression()] = study_progression[stu.progression()] + 1
+    
+    fig1, ax1 = plt.subplots()
+    ax1.pie(study_progression.values(), labels=study_progression.keys(), autopct=lambda p:'{:.2f}%({:.0f})'.format(p,(p/100)*sum(study_progression.values())), shadow=True, startangle=90)
+    ax1.set_aspect('equal')
+    ax1.legend(study_progression.keys(), loc='upper right')
+    plt.show()
+
+def taken_each_course(students):
+    male_list = []
+    female_list = []
+    for student in students:
+        if student.gender == 'male':
+            male_list.append(student)
+        else:
+            female_list.append(student)
+
+    female_list = bar_course_number_of_student_list(female_list)
+    male_list = bar_course_number_of_student_list(male_list)
+
+    plt.bar(female_list.keys(), female_list.values(), color='red') 
+    plt.bar(male_list.keys(), male_list.values(), color='blue') 
+    title = 'Bar chart of distribution of number of students for each course (Male and Female)'
+    plt.title(title, fontsize=12)
+    plt.xlabel("Courses", fontsize=10)
+    plt.ylabel("number of students", fontsize=10)
+    plt.show()
+
+def bar_course_number_of_student_list(students):
+    study_progression = {}
+    for stu in students:
+        for course in stu.list_of_courses():
+            if course.name not in study_progression:
+                study_progression[course.name] = 1
+            else:
+                study_progression[course.name] = study_progression[course.name] + 1 
+    return study_progression
+
 #1
-generate_students(4)
+generate_students(27)
 Read_student_data()
 plot_graph(Read_student_data())
 distribution_of_study_progression(Read_student_data())
 
 #2
 closest_to_completing(Read_student_data())
+
+#3
+student_pie(Read_student_data())
+taken_each_course(Read_student_data())
