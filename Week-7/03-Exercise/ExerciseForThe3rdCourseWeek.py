@@ -148,7 +148,7 @@ def closest_to_completing(sorted_list):
     comp_list = []
     try:
         if len(sorted_list) >= 3:
-            comp_list = [sorted_list[10].list_student(),sorted_list[1].list_student(),sorted_list[2].list_student()]
+            comp_list = [sorted_list[0],sorted_list[1],sorted_list[2]]
         else:
             raise NotEnoughStudentsException('Oh no, length is only {}!'.format(len(sorted_list)))
     except NotEnoughStudentsException:
@@ -166,7 +166,7 @@ def closest_to_completion(students):
         obj=csv.writer(file_object)
         if len(students) > 1:
             for person in students:
-                obj.writerow(person)
+                obj.writerow(person.list_student())
         else:
             obj.writerow(students)
 
