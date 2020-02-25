@@ -1,0 +1,526 @@
+﻿CIVILSTAND;OMRÅDE;TID;INDHOLD
+I alt;Hele landet;2020K1;5822763
+I alt;Region Hovedstaden;2020K1;1846023
+I alt;København;2020K1;632340
+I alt;Frederiksberg;2020K1;104305
+I alt;Dragør;2020K1;14494
+I alt;Tårnby;2020K1;42989
+I alt;Albertslund;2020K1;27731
+I alt;Ballerup;2020K1;48602
+I alt;Brøndby;2020K1;35090
+I alt;Gentofte;2020K1;74830
+I alt;Gladsaxe;2020K1;69262
+I alt;Glostrup;2020K1;23128
+I alt;Herlev;2020K1;28953
+I alt;Hvidovre;2020K1;53527
+I alt;Høje-Taastrup;2020K1;50759
+I alt;Ishøj;2020K1;22989
+I alt;Lyngby-Taarbæk;2020K1;56214
+I alt;Rødovre;2020K1;40652
+I alt;Vallensbæk;2020K1;16633
+I alt;Allerød;2020K1;25633
+I alt;Egedal;2020K1;43354
+I alt;Fredensborg;2020K1;40865
+I alt;Frederikssund;2020K1;45223
+I alt;Furesø;2020K1;40965
+I alt;Gribskov;2020K1;41048
+I alt;Halsnæs;2020K1;31384
+I alt;Helsingør;2020K1;62695
+I alt;Hillerød;2020K1;51183
+I alt;Hørsholm;2020K1;24864
+I alt;Rudersdal;2020K1;56728
+I alt;Bornholm;2020K1;39499
+I alt;Christiansø;2020K1;84
+I alt;Region Sjælland;2020K1;837359
+I alt;Greve;2020K1;50558
+I alt;Køge;2020K1;60979
+I alt;Lejre;2020K1;27996
+I alt;Roskilde;2020K1;87914
+I alt;Solrød;2020K1;23255
+I alt;Faxe;2020K1;36576
+I alt;Guldborgsund;2020K1;60722
+I alt;Holbæk;2020K1;71541
+I alt;Kalundborg;2020K1;48436
+I alt;Lolland;2020K1;41105
+I alt;Næstved;2020K1;83143
+I alt;Odsherred;2020K1;32957
+I alt;Ringsted;2020K1;34852
+I alt;Slagelse;2020K1;79073
+I alt;Sorø;2020K1;29881
+I alt;Stevns;2020K1;22805
+I alt;Vordingborg;2020K1;45566
+I alt;Region Syddanmark;2020K1;1223105
+I alt;Assens;2020K1;40965
+I alt;Faaborg-Midtfyn;2020K1;51556
+I alt;Kerteminde;2020K1;23812
+I alt;Langeland;2020K1;12491
+I alt;Middelfart;2020K1;38853
+I alt;Nordfyns;2020K1;29665
+I alt;Nyborg;2020K1;32009
+I alt;Odense;2020K1;204895
+I alt;Svendborg;2020K1;58296
+I alt;Ærø;2020K1;5964
+I alt;Billund;2020K1;26608
+I alt;Esbjerg;2020K1;115483
+I alt;Fanø;2020K1;3488
+I alt;Fredericia;2020K1;51377
+I alt;Haderslev;2020K1;55670
+I alt;Kolding;2020K1;93175
+I alt;Sønderborg;2020K1;74220
+I alt;Tønder;2020K1;37366
+I alt;Varde;2020K1;49961
+I alt;Vejen;2020K1;42742
+I alt;Vejle;2020K1;115748
+I alt;Aabenraa;2020K1;58761
+I alt;Region Midtjylland;2020K1;1326340
+I alt;Favrskov;2020K1;48397
+I alt;Hedensted;2020K1;46722
+I alt;Horsens;2020K1;90966
+I alt;Norddjurs;2020K1;37089
+I alt;Odder;2020K1;22844
+I alt;Randers;2020K1;97805
+I alt;Samsø;2020K1;3657
+I alt;Silkeborg;2020K1;94026
+I alt;Skanderborg;2020K1;62678
+I alt;Syddjurs;2020K1;42962
+I alt;Aarhus;2020K1;349983
+I alt;Herning;2020K1;89127
+I alt;Holstebro;2020K1;58591
+I alt;Ikast-Brande;2020K1;41369
+I alt;Lemvig;2020K1;19722
+I alt;Ringkøbing-Skjern;2020K1;56594
+I alt;Skive;2020K1;45851
+I alt;Struer;2020K1;21036
+I alt;Viborg;2020K1;96921
+I alt;Region Nordjylland;2020K1;589936
+I alt;Brønderslev;2020K1;36304
+I alt;Frederikshavn;2020K1;59654
+I alt;Hjørring;2020K1;64483
+I alt;Jammerbugt;2020K1;38324
+I alt;Læsø;2020K1;1786
+I alt;Mariagerfjord;2020K1;41800
+I alt;Morsø;2020K1;20247
+I alt;Rebild;2020K1;30113
+I alt;Thisted;2020K1;43423
+I alt;Vesthimmerlands;2020K1;36727
+I alt;Aalborg;2020K1;217075
+Ugift;Hele landet;2020K1;2844060
+Ugift;Region Hovedstaden;2020K1;973802
+Ugift;København;2020K1;412512
+Ugift;Frederiksberg;2020K1;60781
+Ugift;Dragør;2020K1;5844
+Ugift;Tårnby;2020K1;19947
+Ugift;Albertslund;2020K1;13795
+Ugift;Ballerup;2020K1;22371
+Ugift;Brøndby;2020K1;16245
+Ugift;Gentofte;2020K1;35130
+Ugift;Gladsaxe;2020K1;34731
+Ugift;Glostrup;2020K1;11193
+Ugift;Herlev;2020K1;13767
+Ugift;Hvidovre;2020K1;26533
+Ugift;Høje-Taastrup;2020K1;23532
+Ugift;Ishøj;2020K1;10808
+Ugift;Lyngby-Taarbæk;2020K1;27810
+Ugift;Rødovre;2020K1;20055
+Ugift;Vallensbæk;2020K1;7354
+Ugift;Allerød;2020K1;10586
+Ugift;Egedal;2020K1;18274
+Ugift;Fredensborg;2020K1;17135
+Ugift;Frederikssund;2020K1;18530
+Ugift;Furesø;2020K1;17443
+Ugift;Gribskov;2020K1;15993
+Ugift;Halsnæs;2020K1;12656
+Ugift;Helsingør;2020K1;27077
+Ugift;Hillerød;2020K1;23306
+Ugift;Hørsholm;2020K1;9677
+Ugift;Rudersdal;2020K1;24690
+Ugift;Bornholm;2020K1;15996
+Ugift;Christiansø;2020K1;31
+Ugift;Region Sjælland;2020K1;368715
+Ugift;Greve;2020K1;21016
+Ugift;Køge;2020K1;27189
+Ugift;Lejre;2020K1;11553
+Ugift;Roskilde;2020K1;41111
+Ugift;Solrød;2020K1;9955
+Ugift;Faxe;2020K1;15575
+Ugift;Guldborgsund;2020K1;25908
+Ugift;Holbæk;2020K1;32235
+Ugift;Kalundborg;2020K1;21163
+Ugift;Lolland;2020K1;17132
+Ugift;Næstved;2020K1;38119
+Ugift;Odsherred;2020K1;13011
+Ugift;Ringsted;2020K1;16052
+Ugift;Slagelse;2020K1;37269
+Ugift;Sorø;2020K1;13232
+Ugift;Stevns;2020K1;9085
+Ugift;Vordingborg;2020K1;19110
+Ugift;Region Syddanmark;2020K1;568126
+Ugift;Assens;2020K1;17711
+Ugift;Faaborg-Midtfyn;2020K1;22004
+Ugift;Kerteminde;2020K1;9789
+Ugift;Langeland;2020K1;4583
+Ugift;Middelfart;2020K1;16533
+Ugift;Nordfyns;2020K1;12701
+Ugift;Nyborg;2020K1;13803
+Ugift;Odense;2020K1;112490
+Ugift;Svendborg;2020K1;26178
+Ugift;Ærø;2020K1;2174
+Ugift;Billund;2020K1;11719
+Ugift;Esbjerg;2020K1;55014
+Ugift;Fanø;2020K1;1258
+Ugift;Fredericia;2020K1;23719
+Ugift;Haderslev;2020K1;24806
+Ugift;Kolding;2020K1;44898
+Ugift;Sønderborg;2020K1;32107
+Ugift;Tønder;2020K1;15874
+Ugift;Varde;2020K1;21766
+Ugift;Vejen;2020K1;19285
+Ugift;Vejle;2020K1;54448
+Ugift;Aabenraa;2020K1;25266
+Ugift;Region Midtjylland;2020K1;653428
+Ugift;Favrskov;2020K1;21794
+Ugift;Hedensted;2020K1;20301
+Ugift;Horsens;2020K1;44353
+Ugift;Norddjurs;2020K1;16360
+Ugift;Odder;2020K1;9599
+Ugift;Randers;2020K1;46936
+Ugift;Samsø;2020K1;1281
+Ugift;Silkeborg;2020K1;43672
+Ugift;Skanderborg;2020K1;28692
+Ugift;Syddjurs;2020K1;17996
+Ugift;Aarhus;2020K1;208509
+Ugift;Herning;2020K1;41719
+Ugift;Holstebro;2020K1;27357
+Ugift;Ikast-Brande;2020K1;18551
+Ugift;Lemvig;2020K1;7900
+Ugift;Ringkøbing-Skjern;2020K1;24254
+Ugift;Skive;2020K1;20222
+Ugift;Struer;2020K1;8562
+Ugift;Viborg;2020K1;45370
+Ugift;Region Nordjylland;2020K1;279989
+Ugift;Brønderslev;2020K1;16246
+Ugift;Frederikshavn;2020K1;24767
+Ugift;Hjørring;2020K1;28574
+Ugift;Jammerbugt;2020K1;16286
+Ugift;Læsø;2020K1;593
+Ugift;Mariagerfjord;2020K1;18168
+Ugift;Morsø;2020K1;8740
+Ugift;Rebild;2020K1;13553
+Ugift;Thisted;2020K1;18696
+Ugift;Vesthimmerlands;2020K1;16172
+Ugift;Aalborg;2020K1;118194
+Gift/separeret;Hele landet;2020K1;2146017
+Gift/separeret;Region Hovedstaden;2020K1;620156
+Gift/separeret;København;2020K1;150458
+Gift/separeret;Frederiksberg;2020K1;29185
+Gift/separeret;Dragør;2020K1;6546
+Gift/separeret;Tårnby;2020K1;16660
+Gift/separeret;Albertslund;2020K1;10054
+Gift/separeret;Ballerup;2020K1;18441
+Gift/separeret;Brøndby;2020K1;13231
+Gift/separeret;Gentofte;2020K1;28979
+Gift/separeret;Gladsaxe;2020K1;24735
+Gift/separeret;Glostrup;2020K1;8339
+Gift/separeret;Herlev;2020K1;10561
+Gift/separeret;Hvidovre;2020K1;19341
+Gift/separeret;Høje-Taastrup;2020K1;20224
+Gift/separeret;Ishøj;2020K1;8931
+Gift/separeret;Lyngby-Taarbæk;2020K1;20344
+Gift/separeret;Rødovre;2020K1;14268
+Gift/separeret;Vallensbæk;2020K1;7290
+Gift/separeret;Allerød;2020K1;11843
+Gift/separeret;Egedal;2020K1;19789
+Gift/separeret;Fredensborg;2020K1;17574
+Gift/separeret;Frederikssund;2020K1;19028
+Gift/separeret;Furesø;2020K1;17856
+Gift/separeret;Gribskov;2020K1;17823
+Gift/separeret;Halsnæs;2020K1;13029
+Gift/separeret;Helsingør;2020K1;24435
+Gift/separeret;Hillerød;2020K1;20681
+Gift/separeret;Hørsholm;2020K1;10786
+Gift/separeret;Rudersdal;2020K1;23679
+Gift/separeret;Bornholm;2020K1;16005
+Gift/separeret;Christiansø;2020K1;41
+Gift/separeret;Region Sjælland;2020K1;329634
+Gift/separeret;Greve;2020K1;22162
+Gift/separeret;Køge;2020K1;24448
+Gift/separeret;Lejre;2020K1;12554
+Gift/separeret;Roskilde;2020K1;34221
+Gift/separeret;Solrød;2020K1;10209
+Gift/separeret;Faxe;2020K1;14962
+Gift/separeret;Guldborgsund;2020K1;23096
+Gift/separeret;Holbæk;2020K1;27871
+Gift/separeret;Kalundborg;2020K1;18555
+Gift/separeret;Lolland;2020K1;15497
+Gift/separeret;Næstved;2020K1;30996
+Gift/separeret;Odsherred;2020K1;13478
+Gift/separeret;Ringsted;2020K1;13618
+Gift/separeret;Slagelse;2020K1;28596
+Gift/separeret;Sorø;2020K1;11739
+Gift/separeret;Stevns;2020K1;9943
+Gift/separeret;Vordingborg;2020K1;17689
+Gift/separeret;Region Syddanmark;2020K1;473291
+Gift/separeret;Assens;2020K1;16847
+Gift/separeret;Faaborg-Midtfyn;2020K1;21410
+Gift/separeret;Kerteminde;2020K1;10101
+Gift/separeret;Langeland;2020K1;5313
+Gift/separeret;Middelfart;2020K1;16254
+Gift/separeret;Nordfyns;2020K1;12497
+Gift/separeret;Nyborg;2020K1;12893
+Gift/separeret;Odense;2020K1;65362
+Gift/separeret;Svendborg;2020K1;22518
+Gift/separeret;Ærø;2020K1;2569
+Gift/separeret;Billund;2020K1;11166
+Gift/separeret;Esbjerg;2020K1;43670
+Gift/separeret;Fanø;2020K1;1563
+Gift/separeret;Fredericia;2020K1;19514
+Gift/separeret;Haderslev;2020K1;22074
+Gift/separeret;Kolding;2020K1;35262
+Gift/separeret;Sønderborg;2020K1;30473
+Gift/separeret;Tønder;2020K1;15577
+Gift/separeret;Varde;2020K1;21306
+Gift/separeret;Vejen;2020K1;17423
+Gift/separeret;Vejle;2020K1;45409
+Gift/separeret;Aabenraa;2020K1;24090
+Gift/separeret;Region Midtjylland;2020K1;497675
+Gift/separeret;Favrskov;2020K1;20697
+Gift/separeret;Hedensted;2020K1;19973
+Gift/separeret;Horsens;2020K1;34031
+Gift/separeret;Norddjurs;2020K1;14483
+Gift/separeret;Odder;2020K1;9786
+Gift/separeret;Randers;2020K1;36066
+Gift/separeret;Samsø;2020K1;1579
+Gift/separeret;Silkeborg;2020K1;37309
+Gift/separeret;Skanderborg;2020K1;26605
+Gift/separeret;Syddjurs;2020K1;18292
+Gift/separeret;Aarhus;2020K1;102999
+Gift/separeret;Herning;2020K1;35793
+Gift/separeret;Holstebro;2020K1;23524
+Gift/separeret;Ikast-Brande;2020K1;17165
+Gift/separeret;Lemvig;2020K1;8851
+Gift/separeret;Ringkøbing-Skjern;2020K1;24588
+Gift/separeret;Skive;2020K1;18698
+Gift/separeret;Struer;2020K1;9138
+Gift/separeret;Viborg;2020K1;38098
+Gift/separeret;Region Nordjylland;2020K1;225261
+Gift/separeret;Brønderslev;2020K1;14815
+Gift/separeret;Frederikshavn;2020K1;24782
+Gift/separeret;Hjørring;2020K1;25841
+Gift/separeret;Jammerbugt;2020K1;16434
+Gift/separeret;Læsø;2020K1;782
+Gift/separeret;Mariagerfjord;2020K1;17233
+Gift/separeret;Morsø;2020K1;8202
+Gift/separeret;Rebild;2020K1;12723
+Gift/separeret;Thisted;2020K1;18176
+Gift/separeret;Vesthimmerlands;2020K1;14861
+Gift/separeret;Aalborg;2020K1;71412
+Enke/enkemand;Hele landet;2020K1;288098
+Enke/enkemand;Region Hovedstaden;2020K1;76474
+Enke/enkemand;København;2020K1;14630
+Enke/enkemand;Frederiksberg;2020K1;4220
+Enke/enkemand;Dragør;2020K1;893
+Enke/enkemand;Tårnby;2020K1;2232
+Enke/enkemand;Albertslund;2020K1;1156
+Enke/enkemand;Ballerup;2020K1;2762
+Enke/enkemand;Brøndby;2020K1;1940
+Enke/enkemand;Gentofte;2020K1;3406
+Enke/enkemand;Gladsaxe;2020K1;3008
+Enke/enkemand;Glostrup;2020K1;1184
+Enke/enkemand;Herlev;2020K1;1570
+Enke/enkemand;Hvidovre;2020K1;2487
+Enke/enkemand;Høje-Taastrup;2020K1;2279
+Enke/enkemand;Ishøj;2020K1;960
+Enke/enkemand;Lyngby-Taarbæk;2020K1;2778
+Enke/enkemand;Rødovre;2020K1;2051
+Enke/enkemand;Vallensbæk;2020K1;712
+Enke/enkemand;Allerød;2020K1;1220
+Enke/enkemand;Egedal;2020K1;1924
+Enke/enkemand;Fredensborg;2020K1;1974
+Enke/enkemand;Frederikssund;2020K1;2766
+Enke/enkemand;Furesø;2020K1;2124
+Enke/enkemand;Gribskov;2020K1;2517
+Enke/enkemand;Halsnæs;2020K1;1981
+Enke/enkemand;Helsingør;2020K1;3539
+Enke/enkemand;Hillerød;2020K1;2423
+Enke/enkemand;Hørsholm;2020K1;1664
+Enke/enkemand;Rudersdal;2020K1;3222
+Enke/enkemand;Bornholm;2020K1;2846
+Enke/enkemand;Christiansø;2020K1;6
+Enke/enkemand;Region Sjælland;2020K1;48700
+Enke/enkemand;Greve;2020K1;2588
+Enke/enkemand;Køge;2020K1;3096
+Enke/enkemand;Lejre;2020K1;1437
+Enke/enkemand;Roskilde;2020K1;4229
+Enke/enkemand;Solrød;2020K1;1044
+Enke/enkemand;Faxe;2020K1;2059
+Enke/enkemand;Guldborgsund;2020K1;4356
+Enke/enkemand;Holbæk;2020K1;3836
+Enke/enkemand;Kalundborg;2020K1;3063
+Enke/enkemand;Lolland;2020K1;3343
+Enke/enkemand;Næstved;2020K1;4644
+Enke/enkemand;Odsherred;2020K1;2424
+Enke/enkemand;Ringsted;2020K1;1694
+Enke/enkemand;Slagelse;2020K1;4579
+Enke/enkemand;Sorø;2020K1;1677
+Enke/enkemand;Stevns;2020K1;1431
+Enke/enkemand;Vordingborg;2020K1;3200
+Enke/enkemand;Region Syddanmark;2020K1;66795
+Enke/enkemand;Assens;2020K1;2392
+Enke/enkemand;Faaborg-Midtfyn;2020K1;3178
+Enke/enkemand;Kerteminde;2020K1;1610
+Enke/enkemand;Langeland;2020K1;1088
+Enke/enkemand;Middelfart;2020K1;2257
+Enke/enkemand;Nordfyns;2020K1;1761
+Enke/enkemand;Nyborg;2020K1;1978
+Enke/enkemand;Odense;2020K1;9099
+Enke/enkemand;Svendborg;2020K1;3438
+Enke/enkemand;Ærø;2020K1;555
+Enke/enkemand;Billund;2020K1;1512
+Enke/enkemand;Esbjerg;2020K1;5911
+Enke/enkemand;Fanø;2020K1;265
+Enke/enkemand;Fredericia;2020K1;2703
+Enke/enkemand;Haderslev;2020K1;3328
+Enke/enkemand;Kolding;2020K1;4414
+Enke/enkemand;Sønderborg;2020K1;4621
+Enke/enkemand;Tønder;2020K1;2379
+Enke/enkemand;Varde;2020K1;2888
+Enke/enkemand;Vejen;2020K1;2411
+Enke/enkemand;Vejle;2020K1;5488
+Enke/enkemand;Aabenraa;2020K1;3519
+Enke/enkemand;Region Midtjylland;2020K1;62794
+Enke/enkemand;Favrskov;2020K1;2220
+Enke/enkemand;Hedensted;2020K1;2481
+Enke/enkemand;Horsens;2020K1;4204
+Enke/enkemand;Norddjurs;2020K1;2443
+Enke/enkemand;Odder;2020K1;1285
+Enke/enkemand;Randers;2020K1;5257
+Enke/enkemand;Samsø;2020K1;346
+Enke/enkemand;Silkeborg;2020K1;4444
+Enke/enkemand;Skanderborg;2020K1;2538
+Enke/enkemand;Syddjurs;2020K1;2473
+Enke/enkemand;Aarhus;2020K1;11773
+Enke/enkemand;Herning;2020K1;4469
+Enke/enkemand;Holstebro;2020K1;3011
+Enke/enkemand;Ikast-Brande;2020K1;2084
+Enke/enkemand;Lemvig;2020K1;1361
+Enke/enkemand;Ringkøbing-Skjern;2020K1;3322
+Enke/enkemand;Skive;2020K1;2804
+Enke/enkemand;Struer;2020K1;1358
+Enke/enkemand;Viborg;2020K1;4921
+Enke/enkemand;Region Nordjylland;2020K1;33335
+Enke/enkemand;Brønderslev;2020K1;2147
+Enke/enkemand;Frederikshavn;2020K1;4219
+Enke/enkemand;Hjørring;2020K1;3929
+Enke/enkemand;Jammerbugt;2020K1;2376
+Enke/enkemand;Læsø;2020K1;192
+Enke/enkemand;Mariagerfjord;2020K1;2506
+Enke/enkemand;Morsø;2020K1;1437
+Enke/enkemand;Rebild;2020K1;1512
+Enke/enkemand;Thisted;2020K1;2851
+Enke/enkemand;Vesthimmerlands;2020K1;2346
+Enke/enkemand;Aalborg;2020K1;9820
+Fraskilt;Hele landet;2020K1;544588
+Fraskilt;Region Hovedstaden;2020K1;175591
+Fraskilt;København;2020K1;54740
+Fraskilt;Frederiksberg;2020K1;10119
+Fraskilt;Dragør;2020K1;1211
+Fraskilt;Tårnby;2020K1;4150
+Fraskilt;Albertslund;2020K1;2726
+Fraskilt;Ballerup;2020K1;5028
+Fraskilt;Brøndby;2020K1;3674
+Fraskilt;Gentofte;2020K1;7315
+Fraskilt;Gladsaxe;2020K1;6788
+Fraskilt;Glostrup;2020K1;2412
+Fraskilt;Herlev;2020K1;3055
+Fraskilt;Hvidovre;2020K1;5166
+Fraskilt;Høje-Taastrup;2020K1;4724
+Fraskilt;Ishøj;2020K1;2290
+Fraskilt;Lyngby-Taarbæk;2020K1;5282
+Fraskilt;Rødovre;2020K1;4278
+Fraskilt;Vallensbæk;2020K1;1277
+Fraskilt;Allerød;2020K1;1984
+Fraskilt;Egedal;2020K1;3367
+Fraskilt;Fredensborg;2020K1;4182
+Fraskilt;Frederikssund;2020K1;4899
+Fraskilt;Furesø;2020K1;3542
+Fraskilt;Gribskov;2020K1;4715
+Fraskilt;Halsnæs;2020K1;3718
+Fraskilt;Helsingør;2020K1;7644
+Fraskilt;Hillerød;2020K1;4773
+Fraskilt;Hørsholm;2020K1;2737
+Fraskilt;Rudersdal;2020K1;5137
+Fraskilt;Bornholm;2020K1;4652
+Fraskilt;Christiansø;2020K1;6
+Fraskilt;Region Sjælland;2020K1;90310
+Fraskilt;Greve;2020K1;4792
+Fraskilt;Køge;2020K1;6246
+Fraskilt;Lejre;2020K1;2452
+Fraskilt;Roskilde;2020K1;8353
+Fraskilt;Solrød;2020K1;2047
+Fraskilt;Faxe;2020K1;3980
+Fraskilt;Guldborgsund;2020K1;7362
+Fraskilt;Holbæk;2020K1;7599
+Fraskilt;Kalundborg;2020K1;5655
+Fraskilt;Lolland;2020K1;5133
+Fraskilt;Næstved;2020K1;9384
+Fraskilt;Odsherred;2020K1;4044
+Fraskilt;Ringsted;2020K1;3488
+Fraskilt;Slagelse;2020K1;8629
+Fraskilt;Sorø;2020K1;3233
+Fraskilt;Stevns;2020K1;2346
+Fraskilt;Vordingborg;2020K1;5567
+Fraskilt;Region Syddanmark;2020K1;114893
+Fraskilt;Assens;2020K1;4015
+Fraskilt;Faaborg-Midtfyn;2020K1;4964
+Fraskilt;Kerteminde;2020K1;2312
+Fraskilt;Langeland;2020K1;1507
+Fraskilt;Middelfart;2020K1;3809
+Fraskilt;Nordfyns;2020K1;2706
+Fraskilt;Nyborg;2020K1;3335
+Fraskilt;Odense;2020K1;17944
+Fraskilt;Svendborg;2020K1;6162
+Fraskilt;Ærø;2020K1;666
+Fraskilt;Billund;2020K1;2211
+Fraskilt;Esbjerg;2020K1;10888
+Fraskilt;Fanø;2020K1;402
+Fraskilt;Fredericia;2020K1;5441
+Fraskilt;Haderslev;2020K1;5462
+Fraskilt;Kolding;2020K1;8601
+Fraskilt;Sønderborg;2020K1;7019
+Fraskilt;Tønder;2020K1;3536
+Fraskilt;Varde;2020K1;4001
+Fraskilt;Vejen;2020K1;3623
+Fraskilt;Vejle;2020K1;10403
+Fraskilt;Aabenraa;2020K1;5886
+Fraskilt;Region Midtjylland;2020K1;112443
+Fraskilt;Favrskov;2020K1;3686
+Fraskilt;Hedensted;2020K1;3967
+Fraskilt;Horsens;2020K1;8378
+Fraskilt;Norddjurs;2020K1;3803
+Fraskilt;Odder;2020K1;2174
+Fraskilt;Randers;2020K1;9546
+Fraskilt;Samsø;2020K1;451
+Fraskilt;Silkeborg;2020K1;8601
+Fraskilt;Skanderborg;2020K1;4843
+Fraskilt;Syddjurs;2020K1;4201
+Fraskilt;Aarhus;2020K1;26702
+Fraskilt;Herning;2020K1;7146
+Fraskilt;Holstebro;2020K1;4699
+Fraskilt;Ikast-Brande;2020K1;3569
+Fraskilt;Lemvig;2020K1;1610
+Fraskilt;Ringkøbing-Skjern;2020K1;4430
+Fraskilt;Skive;2020K1;4127
+Fraskilt;Struer;2020K1;1978
+Fraskilt;Viborg;2020K1;8532
+Fraskilt;Region Nordjylland;2020K1;51351
+Fraskilt;Brønderslev;2020K1;3096
+Fraskilt;Frederikshavn;2020K1;5886
+Fraskilt;Hjørring;2020K1;6139
+Fraskilt;Jammerbugt;2020K1;3228
+Fraskilt;Læsø;2020K1;219
+Fraskilt;Mariagerfjord;2020K1;3893
+Fraskilt;Morsø;2020K1;1868
+Fraskilt;Rebild;2020K1;2325
+Fraskilt;Thisted;2020K1;3700
+Fraskilt;Vesthimmerlands;2020K1;3348
+Fraskilt;Aalborg;2020K1;17649
