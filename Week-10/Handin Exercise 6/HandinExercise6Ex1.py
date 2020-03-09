@@ -1,4 +1,5 @@
 import webget
+from concurrent.futures import ThreadPoolExecutor
 
 #Ex 1
 class NotFoundException(ValueError):
@@ -11,19 +12,26 @@ class Moduel_class:
         self.url_list = url_list
 
     #2
-    def download(self, url, filename):
+    def download(self, url, filename=None):
         try:
             webget.download(url, filename)
+    #        wget.download(url, filename)
         except:
             raise NotFoundException('File not found!')
     
     #3
+    #def multi_download(self, url_list):
+    #    for url in url_list:
+    #        try:
+    #            webget.download(url, url)
+    #        except:
+    #            raise NotFoundException('File not found!')
     def multi_download(self, url_list):
-        for url in url_list:
-            try:
-                webget.download(url, url)
-            except:
-                raise NotFoundException('File not found!')
+        def multithreading(func, args, workers=5):
+            with ThreadPoolExecutor(workers) as ex:
+                res = ex.map(func, args)
+            return list(res)
+        self.files = multithreading(self.download, self.url_list)
 
     #4
     def __iter__(self):
@@ -48,7 +56,7 @@ class Moduel_class:
     def avg_vowels(self, text):
         total_vowls = 0
         for char in text:
-            if (char in 'aieouAIEOU'):
+            if (char in 'aieouæøåAIEOUÆØÅ'):
                 total_vowls += 1
         return len(text) / total_vowls
 
