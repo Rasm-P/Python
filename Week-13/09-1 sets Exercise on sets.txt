@@ -1,0 +1,8 @@
+Which expressions are true:?
+
+- 4∈ℝ true
+- 𝜋∈ℚ false
+- 2/3∈ℝ true
+- √2∉ℚ true
+- −5∈ℕ false
+- 𝑙𝑜𝑔(7)∉ℚ true
