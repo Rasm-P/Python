@@ -1,0 +1,6 @@
+Vector et array, en liste af værdier
+Matric et 2 domintionelt dataset med lige lange rækker
+Vector space, n-directional array with many dimentions
+Vector arithmatics, a way of multiplying, dividing, adding and substracting vectors.
+Matrix products matrix products 2 matrices joined to one where each row element from one matrix multiplied by each column element in another matrix summed up in each cell of the resulting matrix
+
